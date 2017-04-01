@@ -1,8 +1,8 @@
 {
-  "name": "vue-bel-table",
+  "name": "vue-plugin-pagination",
   "version": "1.0.0",
-  "description": "A vue table component that base on element ui.Just for using el-table component more convenient。",
-  "main": "dist/build.js",
+  "description": "A vue pagination。",
+  "main": "dist/vue-pagination.js",
   "scripts": {
     "devs": "node build/dev-server.js",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,18 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yeyuqiudeng/vue-bel-table.git"
+    "url": "https://github.com/fangdown/vue-plugin-pagination.git"
   },
   "bugs": {
-    "url": "https://github.com/yeyuqiudeng/vue-bel-table/issues"
+    "url": "https://github.com/fangdown/vue-plugin-pagination/issues"
   },
-  "homepage": "https://github.com/yeyuqiudeng/vue-bel-table#readme",
+  "homepage": "https://github.com/fangdown/vue-plugin-pagination#readme",
   "keywords": [
-    "vue-bel-table",
+    "vue-plugin-pagination",
     "vue",
     "table",
-    "element-ui",
-    "vue-component"
+    "pagination"
   ],
   "devDependencies": {
     "babel-core": "^6.24.0",
@@ -46,8 +45,8 @@
     "webpack": "^2.3.2"
   },
   "author": {
-    "name": "Hefty",
-    "email": "yeyuqiudeng@gmail.com"
+    "name": "fangdown",
+    "email": "409951398@qq.com"
   },
   "license": "MIT",
   "dependencies": {}
