@@ -17,7 +17,11 @@ Vue.use(pagintion)
 ```
 
 ## code
-
+```html 
+html中引入
+<el-pagination  :current-page="table.currentPage" :total="table.total" style="float:right" :page-size="table.pageSize" @current-change="handleCurrentChange" >
+    </el-pagination>
+```
 ```javascript
 export default {
    name: 'app',
